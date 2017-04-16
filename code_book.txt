@@ -1,5 +1,8 @@
 - Person, a number identifying each of the people.
 - Activity, each one of the 6 activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING.
+
+The following means are all regarding to the corresponding pair Person-Activity observation, and are based on the source measures specified.
+
 - timeBodyAccmeanX, mean of tBodyAccmeanX, measured in length_units / time_units^2.
 - timeBodyAccmeanY, mean of tBodyAccmeanY, measured in length_units / time_units^2.
 - timeBodyAccmeanZ, mean of tBodyAccmeanZ, measured in length_units / time_units^2.

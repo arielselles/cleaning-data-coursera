@@ -1,28 +1,5 @@
 library(dplyr)
 directory = "UCI HAR Dataset"
-#
-# library(dplyr)
-# setwd("C:/Dades/Ariel/DataScience/RStudio/M3W4")
-# directory = "UCI HAR Dataset"
-# source("run_analysis.R")
-# m0 = tbl_df(readData(directory, "test"))
-# rm("XXX")  # to remove objects
-# m0 = group_by(tbl, col1, col2)
-# res = summarize(m0, mean(...), sdev(...))
-# pack_sum <- summarize(by_package,
-# count = n(),
-# # unique = n_distinct(ip_id),
-# # countries = n_distinct(country),
-# # avg_bytes = mean(size))
-# 
-# filter(data, condition)
-# arrange(data, order_criteria)
-#
-# quantile(m0$field, prob=0.99)
-# head(m0)
-#
-# tbl_df(rbind(readData(directory, "test"), readData(directory, "train")))
-# bind_rows? insteadof rbind
 
 source("lib_analysis.R")
 

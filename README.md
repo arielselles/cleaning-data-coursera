@@ -8,6 +8,12 @@
 - The code book, code_book.txt.
 - The requiered summarised dataset with mean values, tidy-dataset.txt.
 
+## Instructions
+- Load both scripts in the same directory.
+- Chage the working directory to this same directory.
+- If the origin dataset is not located at the dir "./UCI HAR Dataset", change the location properly.
+- Run the following command: source("run_analysis.R")
+
 ## Merged dataset file explanation
 
 This file contains data related to a study based on 30 people who weared a mobile phone while they did 6 different types of activities. The accelerometers and gyroscops of the mobiles recorded 50 values per second, and their means are registered at this dataset. 
